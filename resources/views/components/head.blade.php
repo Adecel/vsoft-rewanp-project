@@ -12,23 +12,6 @@
 
 <!-- header for home -->
 <!-- bootstrap css -->
-<link rel="stylesheet" href="forHome/css/bootstrap.min.css" />
-<!-- Site css -->
-<link rel="stylesheet" href="forHome/css/style.css" />
-<!-- responsive css -->
-<link rel="stylesheet" href="forHome/css/responsive.css" />
-<!-- colors css -->
-<link rel="stylesheet" href="forHome/css/colors1.css" />
-<!-- custom css -->
-<link rel="stylesheet" href="forHome/css/custom.css" />
-<!-- wow Animation css -->
-<link rel="stylesheet" href="forHome/css/animate.css" />
-<!-- revolution slider css -->
-<link rel="stylesheet" type="text/css" href="forHome/revolution/css/settings.css" />
-<link rel="stylesheet" type="text/css" href="forHome/revolution/css/layers.css" />
-<link rel="stylesheet" type="text/css" href="forHome/revolution/css/navigation.css" />
-<!-- header for home -->
-
 
 <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" type="text/css">

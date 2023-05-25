@@ -52,14 +52,20 @@ h1,
 h2,
 h3,
 h4,
-h5,
+h5 {
+    font-family: 'Gordita';
+    font-weight: 500;
+    color: #0a3b5f;
+}
 h6 {
     font-family: 'Gordita';
     font-weight: 500;
+    color: #FF6100;
 }
 
 h6 {
     font-size: 14px;
+
 }
 
 a {
@@ -77,7 +83,7 @@ p{
 ================================*/
 
 .bg-overlay {
-    background-color: rgba(29, 29, 30, 0.8);
+    background-color: rgb(255, 97, 0);
     position: absolute;
     top: 0;
     right: 0;
@@ -115,7 +121,7 @@ p{
     transition: all 0.4s;
     background: #fff;
     /* color: #FF6348 !important; */
-    color: #007FFF !important;
+    color: #124369 !important;
 }
 
 .btn-custom-white:hover,
@@ -135,7 +141,7 @@ p{
     font-size: 15px;
     transition: all 0.4s;
     color: #fff !important;
-    background: linear-gradient(#020a7c, #007FFF);
+    background:#124369!important;
 }
 
 .btn {
@@ -151,11 +157,11 @@ p{
 }
 
 .text-custom{
-    color: #007FFF;
+    color: #FF6100;
 }
 
 .bg-custom{
-    background-color: #007FFF;
+    background-color: #124369;
 }
 
 /*===============================
@@ -375,7 +381,7 @@ p{
 }
 
 .registration-input-box:focus {
-    border-color: #007FFF;
+    border-color: #124369;
 }
 
 /*******DEMO 3*******/
@@ -499,13 +505,13 @@ p{
     font-size: 30px;
 }
 
-.services-blog svg {
+.services-blog img {
     max-width: 45px;
     float: left;
     margin-right: 20px;
     height: 48px;
     width: 48px;
-    fill: rgba(17, 51, 242, 0.2);
+    fill: rgba(0, 127, 255, 0.2);
     color: #007FFF;
 }
 
@@ -515,11 +521,23 @@ p{
 
 .services-blog {
     padding: 40px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 
 .services-blog h4 {
     font-size: 16px;
+}
+
+.icons{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.outlined{
+
+    border: 3px solid #282828;
+    border-radius: 10px;
 }
 
 
@@ -611,8 +629,8 @@ p{
 
 .container-filter li a.active {
     color: #fff;
-    background-color: #007FFF;
-    border: 1px solid #007FFF;
+    background-color: #124369;
+    border: 1px solid #124369;
 }
 
 .container-filter li a:hover {
@@ -989,7 +1007,7 @@ textarea.form-control {
     .clients-img {
         display: none;
     }
-    
+
 }
 
 @media (min-width:768px) and (max-width: 1024px) {
