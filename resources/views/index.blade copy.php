@@ -7,10 +7,10 @@
 	    <meta name="description" content="" />
 	    <meta name="keywords" content="" />
         <meta name="author" content="MyraStudio" />
-        
+
         <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
 
-		<!-- Bootstrap core CSS -->
+		<!-- Bootstrap core CSS check -->
 	    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
 		<!-- Magnificpopup Css -->
@@ -23,14 +23,14 @@
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 
 		<!--Slider-->
-        <link rel="stylesheet" href="css/owl.carousel.css"/> 
-        <link rel="stylesheet" href="css/owl.theme.css"/> 
+        <link rel="stylesheet" href="css/owl.carousel.css"/>
+        <link rel="stylesheet" href="css/owl.theme.css"/>
         <link rel="stylesheet" href="css/owl.transitions.css"/>
 
 	    <!-- Custom  Css -->
 	    <link rel="stylesheet" type="text/css" href="css/style.css" />
 	</head>
-	
+
 	<body>
 		<!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
@@ -93,9 +93,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -119,9 +119,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -145,9 +145,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -197,12 +197,12 @@
 
                                 <h4>Entrance quote</h4>
                                 <p class="features-desc text-muted mt-3 pl-2 pr-2">
-                                    LeadOutsource Virtual and Physical Assistance ,a podcast production and strategy agency. 
-                                    Manifested from frustration and insane pricing structures,LeadOutsource has provided 
-                                    affordable and professional virtual technical support to all levels of entrepreneurship 
-                                    for over few years. LeadOutsource started as a favor from a friend, now it has flourished 
-                                    into a full-time, tech-support company with dedicated clients international recognition, 
-                                    and a constant waitlist that continuously births innovative ways for LeadOutsource to work 
+                                    LeadOutsource Virtual and Physical Assistance ,a podcast production and strategy agency.
+                                    Manifested from frustration and insane pricing structures,LeadOutsource has provided
+                                    affordable and professional virtual technical support to all levels of entrepreneurship
+                                    for over few years. LeadOutsource started as a favor from a friend, now it has flourished
+                                    into a full-time, tech-support company with dedicated clients international recognition,
+                                    and a constant waitlist that continuously births innovative ways for LeadOutsource to work
                                     with clients without being overloaded or sacrificing the quality of service..</p>
                             </div>
                         </div>
@@ -399,9 +399,9 @@
                                 <div class="service-head">
                                     <h4>Employee training</h4>
                                     <p class="text-muted mb-0">
-                                        In this program we will help employees to learn specific knowledge or skills 
-                                        to improve performance in their current roles. Employee development is more 
-                                        expansive and focuses on employee growth and future performance, rather than 
+                                        In this program we will help employees to learn specific knowledge or skills
+                                        to improve performance in their current roles. Employee development is more
+                                        expansive and focuses on employee growth and future performance, rather than
                                         an immediate job role both in French and English (here here)</p>
                                 </div>
                             </div>
@@ -416,9 +416,9 @@
                                 <div class="service-head">
                                     <h4 class="mb-2">Service Marketing</h4>
                                     <p class="text-muted mb-0">
-                                        we will get people interested in your company's product or service. 
-                                        This happens through market research, analysis, and understanding your ideal customer's 
-                                        interests. Marketing pertains to all aspects of a business, including product development, 
+                                        we will get people interested in your company's product or service.
+                                        This happens through market research, analysis, and understanding your ideal customer's
+                                        interests. Marketing pertains to all aspects of a business, including product development,
                                         distribution methods, sales, and advertising.
                                     </p>
                                 </div>
@@ -434,9 +434,9 @@
                                 <div class="service-head">
                                     <h4 class="mb-2">A contact center</h4>
                                     <p class="text-muted mb-0">
-                                        We provide a central point from which organizations manage all customer interactions across 
-                                        various channels. Their primary purpose is to offer customers efficient and effective technical 
-                                        support, customer service and sales assistance. Via phone calls , chats or email both in French 
+                                        We provide a central point from which organizations manage all customer interactions across
+                                        various channels. Their primary purpose is to offer customers efficient and effective technical
+                                        support, customer service and sales assistance. Via phone calls , chats or email both in French
                                         and English</p>
                                 </div>
                             </div>
@@ -741,7 +741,7 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            displaying a courteous, helpful attitude at all times when interacting. This includes being patient 
+                                            displaying a courteous, helpful attitude at all times when interacting. This includes being patient
                                             and respectful and taking the time to listen concerns and addressing them accordingly.
                                         </p>
                                     </div>
@@ -759,8 +759,8 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            After all, customers who reach out to support are often confused and frustrated. Being listened 
-                                            to and handled with patience goes a long way in helping, feel like you're going to alleviate their 
+                                            After all, customers who reach out to support are often confused and frustrated. Being listened
+                                            to and handled with patience goes a long way in helping, feel like you're going to alleviate their
                                             current frustrations.
                                         </p>
                                     </div>
@@ -778,8 +778,8 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            go above and beyond the ordinary to appease their grievances. Awarding with extra store credit, 
-                                            for example, is a great way to show your appreciation . It takes a lot of self-assurance and 
+                                            go above and beyond the ordinary to appease their grievances. Awarding with extra store credit,
+                                            for example, is a great way to show your appreciation . It takes a lot of self-assurance and
                                             humbleness to deliver a successful customer service experience.
                                         </p>
                                     </div>
@@ -800,7 +800,7 @@
                     <div class="col-lg-10">
                         <div class="contact-head text-center">
                             <h4 class="title-heading text-uppercase">Contact us</h4>
-                            <p class="title-desc text-muted mt-3">Thank you for your interest in LeadOutsource. Please use this form to contact us. 
+                            <p class="title-desc text-muted mt-3">Thank you for your interest in LeadOutsource. Please use this form to contact us.
                                                                     We will get back to you as soon as we can.</p>
                         </div>
                     </div>
@@ -929,7 +929,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-lg-2">
                         <div class="footer-menu">
                             <h5 class="mb-4 text-uppercase">Sections</h5>
@@ -943,7 +943,7 @@
                             </ul>
                         </div>
                     </div>
-        
+
                     <!-- <div class="col-lg-2">
                         <div class="footer-menu">
                             <h5 class="mb-4 text-uppercase">Help Center</h5>
@@ -954,7 +954,7 @@
                             </ul>
                         </div>
                     </div> -->
-        
+
                     <div class="col-lg-4">
                         <div class="footer-menu">
                             <h5 class="mb-4 text-uppercase">Contact us</h5>
@@ -965,7 +965,7 @@
                         </div>
                     </div>
                 </div>
-        
+
                 <!-- <div class="row">
                     <div class="col-lg-12">
                         <div class="text-center mt-5">
