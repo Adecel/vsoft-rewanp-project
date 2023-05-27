@@ -3,7 +3,7 @@
 <head>
     <x-head/>
 </head>
-	
+
 	<body>
         <!-- NAVBAR -->
         <x-home_nav/>
@@ -25,9 +25,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -51,9 +51,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -77,9 +77,9 @@
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that 
-                                                            get you closer to your goals. Efficiency is performing a given task (whether 
-                                                            important or not) in the most economical manner possible. Being efficient without 
+                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
+                                                            get you closer to your goals. Efficiency is performing a given task (whether
+                                                            important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
@@ -106,6 +106,9 @@
             </div>
         </section>
 		<!-- HOME END-->
+
+        {{-- Floating Action Button #Fab--}}
+        <x-fab/>
 
         <!-- WELCOME START -->
         <section class="section" id="feature">
@@ -169,7 +172,10 @@
                     <div class="col-lg-7">
                         <div class="text-center">
                             <h4 class="title-heading text-uppercase">Our Services</h4>
-                            <p class="title-desc text-muted mt-3">Script about our services goes here</p>
+                            <p class="title-desc text-muted mt-3">Our service area covers the software
+                                development life cycle using today’s
+                                languages on multiple development
+                                platforms. </p>
                         </div>
                     </div>
                 </div>
@@ -675,7 +681,7 @@
 
                 </div>
                 <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                    <a href="#---" class="btn btn-custom">View News<i class="mdi mdi-arrow-right ml-2"></i></a>
+                    <a href="/articles" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
                 </div>
             </div>
         </section>
@@ -708,7 +714,7 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            displaying a courteous, helpful attitude at all times when interacting. This includes being patient 
+                                            displaying a courteous, helpful attitude at all times when interacting. This includes being patient
                                             and respectful and taking the time to listen concerns and addressing them accordingly.
                                         </p>
                                     </div>
@@ -726,8 +732,8 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            After all, customers who reach out to support are often confused and frustrated. Being listened 
-                                            to and handled with patience goes a long way in helping, feel like you're going to alleviate their 
+                                            After all, customers who reach out to support are often confused and frustrated. Being listened
+                                            to and handled with patience goes a long way in helping, feel like you're going to alleviate their
                                             current frustrations.
                                         </p>
                                     </div>
@@ -745,8 +751,8 @@
                                     </div>
                                     <div class="testi-content">
                                         <p class="user-review text-center mb-0">
-                                            go above and beyond the ordinary to appease their grievances. Awarding with extra store credit, 
-                                            for example, is a great way to show your appreciation . It takes a lot of self-assurance and 
+                                            go above and beyond the ordinary to appease their grievances. Awarding with extra store credit,
+                                            for example, is a great way to show your appreciation . It takes a lot of self-assurance and
                                             humbleness to deliver a successful customer service experience.
                                         </p>
                                     </div>

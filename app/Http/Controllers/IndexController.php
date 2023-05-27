@@ -14,18 +14,33 @@ class IndexController extends Controller
         $articles = NewsArticles::orderBy('PublishDate', 'desc')->take(3)->get();
 
         return \view('index', compact('testimonials', 'articles'));
+
     }
 
+    public function tempGetData(){
 
-    // public function getAllArticles(){
+        $testimonials = Testimonial::orderBy('CreDate', 'desc')->take(3)->get();
+        $articles = NewsArticles::orderBy('PublishDate', 'desc')->take(3)->get();
 
-    //     $allArticles = NewsArticles::orderBy('PublishDate', 'desc')->paginate(9);
-    //     return \view('articles.all_news', compact('allArticles'));
-    // }
+        return \view('index_temp', compact('testimonials', 'articles'));
 
-    // public function readArticle($id){
+    }
 
-    //     $article = NewsArticles::where('TextNo', $id)->get();
-    //     return \view('articles.news', compact('article'));
-    // }
+    public function getAllArticles(){
+
+        $allArticles = NewsArticles::orderBy('PublishDate', 'desc')->paginate(9);
+
+        return \view('articles.all_news', compact('allArticles'));
+
+    }
+
+    public function readArticle($id){
+
+        $article = NewsArticles::where('TextNo', $id)->get();
+        /*$article = $articles->where('TextNo', '=', $id);*/
+
+
+        return \view('articles.news', compact('article'));
+
+    }
 }
