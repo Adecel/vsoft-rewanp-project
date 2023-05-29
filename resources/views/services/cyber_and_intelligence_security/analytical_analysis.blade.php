@@ -151,7 +151,7 @@
 <x-services_services/>
 
 <!-- FOOTER START -->
-<x-footer/>
+<x-footer_2/>
 <!-- FOOTER END -->
 
 <!-- JAVASCRIPTS -->

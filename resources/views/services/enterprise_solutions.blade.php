@@ -267,7 +267,7 @@
 <!-- CONTACT END -->
 
 <!-- FOOTER START -->
-<x-footer/>
+<x-footer_2/>
 <!-- FOOTER END -->
 
 <!-- JAVASCRIPTS -->

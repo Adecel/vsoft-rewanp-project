@@ -24,11 +24,11 @@
                                                 <div class="col-lg-12">
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
-                                                        <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
-                                                            get you closer to your goals. Efficiency is performing a given task (whether
-                                                            important or not) in the most economical manner possible. Being efficient without
-                                                            regard to effectiveness is the default mode of the universe.”</p>
+                                                        <h2 class="home-title mb-4">Vsoft Systems</h2>
+                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        to various clients, from start-ups to established enterprises, across different industries.
+                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
+                                                        to implementation and deployment.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
@@ -50,11 +50,11 @@
                                                 <div class="col-lg-12">
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
-                                                        <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
-                                                            get you closer to your goals. Efficiency is performing a given task (whether
-                                                            important or not) in the most economical manner possible. Being efficient without
-                                                            regard to effectiveness is the default mode of the universe.”</p>
+                                                        <h2 class="home-title mb-4">Vsoft Systems</h2>
+                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        to various clients, from start-ups to established enterprises, across different industries.
+                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
+                                                        to implementation and deployment.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
@@ -76,11 +76,11 @@
                                                 <div class="col-lg-12">
                                                     <div class="text-center text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
-                                                        <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
-                                                            get you closer to your goals. Efficiency is performing a given task (whether
-                                                            important or not) in the most economical manner possible. Being efficient without
-                                                            regard to effectiveness is the default mode of the universe.”</p>
+                                                        <h2 class="home-title mb-4">Vsoft Systems</h2>
+                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        to various clients, from start-ups to established enterprises, across different industries.
+                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
+                                                        to implementation and deployment.”</p>
                                                         <div class="text-center pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
