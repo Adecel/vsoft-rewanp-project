@@ -25,10 +25,10 @@
                                                     <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
-                                                        to various clients, from start-ups to established enterprises, across different industries.
-                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
-                                                        to implementation and deployment.”</p>
+                                                        <p class="home-desc text-left text-white-50 mx-auto">
+                                                           Vsoft Systems Provides end-to-end product development services to various clients, from start-ups to established
+                                                            enterprises, across different industries. We use proven agile methodology to accelerate the
+                                                            development cycle of products from architecture to implementation and deployment.</p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
@@ -51,10 +51,12 @@
                                                     <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
-                                                        to various clients, from start-ups to established enterprises, across different industries.
-                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
-                                                        to implementation and deployment.”</p>
+                                                        <p class="home-desc text-left text-white-50 mx-auto" >
+                                                            We are a professional web design company offering an array of custom website design, web page
+                                                            design, e-commerce web site design services to clients across the world.
+                                                            We design & develop high-end professional solutions for all companies in requiring
+                                                            specialist solutions.
+                                                        </p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
@@ -77,10 +79,11 @@
                                                     <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
-                                                        to various clients, from start-ups to established enterprises, across different industries.
-                                                        We use proven agile methodology to accelerate the development cycle of products from architecture
-                                                        to implementation and deployment.”</p>
+                                                        <p class="home-desc text-left text-white-50 mx-auto">
+                                                            Outsource your IT business needs to Vsoft Systems, a specialist outsource company. We are a
+                                                            leading IT consultant with a high degree of efficiency in web design, web development,
+                                                            offshore software development, and search engine optimization (SEO) solutions
+                                                        </p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
@@ -317,7 +320,7 @@
                                     <p class="mb-0">
                                         Our state-of-the-art chatbot technology utilizes artificial intelligence and
                                         natural language processing to deliver personalized experiences, streamline
-                                        workflows, and enhance customer satisfaction,
+                                        workflows, and enhance customer satisfaction.
                                     </p>
                                 </div>
                             </div>
