@@ -178,10 +178,16 @@ Route::get('/services/tech-expertise/rfid-solutions', function (){
 });
 
 //Services / Chat bot Expertise /
-
 Route::get('/services/chatbot-expertise', function (){
     return view('services.chatbot_expertise');
 });
+Route::get('/services/chatbot-expertise/chat-bot', function (){
+    return view('services.chatbot_expertise.chat_bot');
+});
+Route::get('/services/chatbot-expertise/convesational-agent', function (){
+    return view('services.chatbot_expertise.convesational_agent');
+});
+// /services/chatbot-expertise/chat-bot
 
   // Articles
  Route::get('/articles', [\App\Http\Controllers\IndexController::class, 'getAllArticles']);

@@ -55,13 +55,13 @@
 
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12">
                 <div class="text-center mt-5">
                     <p class="mb-0">2020  ©  VSoft Systems.</p>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 <!-- FOOTER END -->

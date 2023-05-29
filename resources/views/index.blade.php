@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <x-head/>
-</head>
+    <head>
+        <x-head/>
+    </head>
 
-	<body>
+    <body>
         <!-- NAVBAR -->
         <x-home_nav/>
         <!-- NAVBAR END-->
@@ -317,8 +317,7 @@
                                     <p class="mb-0">
                                         Our state-of-the-art chatbot technology utilizes artificial intelligence and
                                         natural language processing to deliver personalized experiences, streamline
-                                        workflows, and enhance customer satisfaction, all while seamlessly integrating
-                                        with existing systems for a seamless and efficient user experience.
+                                        workflows, and enhance customer satisfaction,
                                     </p>
                                 </div>
                             </div>
@@ -913,6 +912,5 @@
         <!-- JAVASCRIPTS -->
         <x-javascript/>
         <!-- JAVASCRIPTS END -->
-
 	</body>
 </html>
