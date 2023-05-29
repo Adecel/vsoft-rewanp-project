@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
     <div class="container">
-    <a class="navbar-brand logo" href="/index-temp">
-    <img src="images/home/Vsoft-logo.png" alt="Vsoft Systems" style="width: 80px; height: auto;">
-</a>
+        <a class="navbar-brand logo" href="#">
+            <img src="images/logo/vsoft_colour.png" alt="Vsoft Systems" style="width: 180px; height: 30px;">
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="mdi mdi-menu"></i>
         </button>
