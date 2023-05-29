@@ -47,16 +47,28 @@
             <div class="col-lg-4">
                         <div class="custom-form">
                             <div id="message"></div>
-                            <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                            <form method="post" action="{{route('email-sent')}}" name="contact-form" id="contact-form">
+
+                                @if(Session::has('success'))
+                                    <div class="alert alert-success contact_msg" role="alert">
+                                        {{ Session::get('success') }}
+                                        @php
+                                            Session::forget('success');
+                                        @endphp
+                                    </div>
+                                @endif
+
+                                {{csrf_field()}}
+
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input name="name" id="name" type="text" class="form-control" placeholder="Your name...">
+                                            <input name="name" id="name" type="text" class="form-control" placeholder="Name" required="required" value="{{ old('name') }}">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input name="email" id="email" type="email" class="form-control" placeholder="Your email...">
+                                            <input name="email" id="email" type="email" class="form-control" placeholder="Email" required="required" value="{{ old('email') }}">
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +76,7 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <input name="text" id="sub" type="text" class="form-control" placeholder="Your subject...">
+                                            <input name="subject" id="subject" type="text" class="form-control" placeholder="Subject" required="required" value="{{ old('subject') }}">
                                         </div>
                                     </div>
                                 </div>
@@ -72,13 +84,13 @@
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                            <textarea name="message" id="message" rows="4" class="form-control" placeholder="Message" required="required" > {{ old('message') }}</textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row mt-3">
                                     <div class="col-lg-12">
-                                        <input type="submit" id="submit" name="send" class="submitBnt btn btn-custom" value="Send Message">
+                                        <input type="submit" id="submit" name="submit" class="submitBnt btn btn-custom" value="Send Message">
                                         <div id="simple-msg"></div>
                                     </div>
                                 </div>
@@ -87,7 +99,7 @@
                     <!-- </div> -->
             </div>
         </div>
-<!-- 
+<!--
         <div class="row">
             <div class="col-lg-12">
                 <div class="text-center mt-5">
