@@ -55,14 +55,15 @@ p.small {
 .card1 {
     display: block;
     position: relative;
+    /*max-width: 262px;*/
     background-color: #f2f8f9;
     border-radius: 4px;
     padding: 32px 24px;
     margin: 12px;
     text-decoration: none;
     z-index: 0;
-    overflow: hidden;
-    border: 1px solid #0a3b5f;
+    overflow: hidden;/*
+    border: 1px solid #0a3b5f;*/
 }
 .card1:before {
     content: "";
@@ -78,18 +79,70 @@ p.small {
     transform-origin: 90% 50%;
     transition: transform 0.25s ease-out;
 }
+
+.card1 p {
+    color: #2f2f2f;
+}
+
 .card1:hover:before {
     transform: scale(21);
 }
 .card1:hover p {
     transition: all 0.3s ease-out;
-    color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
 }
 .card1:hover h4 {
     transition: all 0.3s ease-out;
-    color: #fff;
+    color: #f25d21;
 }
 
 .card1 h4{
     font-size: 16px;
+}
+
+.card-article:hover .blog-image {
+    transform: scale(1.1) /*rotate(1.5deg)*/;
+}
+
+.teams-card{
+    display: flex;
+    align-items:flex-end;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.teams-content{
+    width:100%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.582);
+    color: white;
+    transform: translateY(100%);
+    transition: all 0.35s ease;
+}
+
+.teams-card:hover .teams-content{
+    transform: translateY(0);
+}
+
+
+
+.icons-team{
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-team i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.274);
+    transition: all 0.2s ease;
+}
+
+.icons-team i:hover{
+    color: rgba(255, 255, 255, 0.438);
 }
