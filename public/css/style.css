@@ -83,7 +83,7 @@ p{
 ================================*/
 
 .bg-overlay {
-    background-color: rgb(242, 93, 33);
+    background-color: rgba(242, 93, 33, 0.66);
     position: absolute;
     top: 0;
     right: 0;
@@ -204,7 +204,7 @@ p{
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li a:hover,
 .navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #124369 !important;
 }
 
 .navbar-toggle {
@@ -218,7 +218,7 @@ p{
 .nav .open>a:focus,
 .nav .open>a:hover {
     background-color: transparent;
-    border-color: #337ab7;
+    border-color: #124369;
 }
 
 .navbar-custom .navbar-toggles {
@@ -267,7 +267,7 @@ p{
 .nav-sticky.navbar-custom .navbar-nav li.active a,
 .nav-sticky.navbar-custom .navbar-nav li a:hover,
 .nav-sticky.navbar-custom .navbar-nav li a:active {
-    color: #007FFF !important;
+    color: #124369 !important;
 }
 
 .nav-sticky.navbar-custom .navbar-toggles {
@@ -475,7 +475,7 @@ p{
 }
 
 .bg-home-half-two {
-    background-image: url('../images/home/home-bg-macbook.jpg');
+    background-image: url('home-bg-thinking.jpg');
     background-size: cover;
     background-position: center center;
     padding: 70px 100px 10px;
@@ -651,8 +651,8 @@ p{
 
 .container-filter li a:hover {
     color: #fff !important;
-    background-color: #f25d21;
-    border: 1px solid #f25d21;
+    background-color: #124369;
+    border: 1px solid #124369;
 }
 
 .item-box {
