@@ -15,21 +15,21 @@
                 <div class="row">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image:url('images/home/background03.jpg');">
+                            <div class="carousel-item active" style="background-image:url('images/home/home-bg-worker.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
                                                         to various clients, from start-ups to established enterprises, across different industries.
                                                         We use proven agile methodology to accelerate the development cycle of products from architecture
                                                         to implementation and deployment.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
@@ -41,21 +41,21 @@
                                 </div>
                             </div>
 
-                            <div class="carousel-item" style="background-image:url('images/home/call_center.jpeg');">
+                            <div class="carousel-item" style="background-image:url('images/home/home-bg-mac.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
                                                         to various clients, from start-ups to established enterprises, across different industries.
                                                         We use proven agile methodology to accelerate the development cycle of products from architecture
                                                         to implementation and deployment.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
@@ -67,21 +67,21 @@
                                 </div>
                             </div>
 
-                            <div class="carousel-item" style="background-image:url('images/home/call_center01.webp');">
+                            <div class="carousel-item" style="background-image:url('images/home/home-bg-thinking.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">Vsoft Systems</h2>
-                                                        <p class="home-desc text-white-50 mx-auto">“provides end-to-end product development services
+                                                        <p class="home-desc text-left text-white-50 mx-auto">“provides end-to-end product development services
                                                         to various clients, from start-ups to established enterprises, across different industries.
                                                         We use proven agile methodology to accelerate the development cycle of products from architecture
                                                         to implementation and deployment.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
