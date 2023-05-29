@@ -31,7 +31,7 @@
                                                         to implementation and deployment.”</p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
-                                                            <a href="#about" class="btn btn-custom-white">About Us</a>
+                                                            <a href="#feature" class="btn btn-custom-white">About Us</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -57,7 +57,7 @@
                                                         to implementation and deployment.”</p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
-                                                            <a href="#about" class="btn btn-custom-white">About Us</a>
+                                                            <a href="#feature" class="btn btn-custom-white">About Us</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -83,7 +83,7 @@
                                                         to implementation and deployment.”</p>
                                                         <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
-                                                            <a href="#about" class="btn btn-custom-white">About Us</a>
+                                                            <a href="#feature" class="btn btn-custom-white">About Us</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -107,14 +107,18 @@
         </section>
 		<!-- HOME END-->
 
-        <!-- WELCOME START -->
+        <!-- WELCOME ABOUT START -->
         <section class="section" id="feature">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-lg-7">
+                    <div class="col-lg-12">
                         <div class="text-center">
-                            <h4 class="title-heading">Starting with Vsoft Systems is easier than anything!</h4>
-                            <p >We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                            <h4 class="title-heading">About VsoftSystems</h4>
+                            <p>We are a professional web design company offering an array of custom website design, 
+                                web page design, e-commerce web site design services to clients across the world.
+                                We design & develop high-end professional solutions for all companies in requiring 
+                                specialist solutions</p>
+                            <!-- <p >We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p> -->
                         </div>
                     </div>
                 </div>
@@ -158,7 +162,7 @@
                                         <img src="images/about/Vision.jpg" class="img-fluid rounded" alt="">
                                     </div>
                                     <h4>Values</h4>
-                                    <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                                    <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver results.</p>
                                 </div>
                             </div>
                         </div>
@@ -167,7 +171,60 @@
 
             </div>
         </section>
-        <!-- WELCOME END -->
+        <!-- WELCOME ABOUT END -->
+
+        <!-- ABOUT START -->
+        <section class="section" id="about" id="feature">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7">
+                        <div class="text-center">
+                            <h4 class="title-heading">About VsoftSystems</h4>
+                            <!-- <p class="title-desc text-muted mt-3">Small quote about what goes with ITHIMBA </p> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div class="features mt-4">
+                            <div class="text-center">
+                                <!-- <div class="mb-4">
+                                    <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                                </div> -->
+
+                                <h4>Software Development Company</h4>
+                                <p class="features-desc text-muted mt-3 pl-2 pr-2">
+
+                                    Our proficiency extends from web design, small and large business web site design, e-commerce
+                                    website design, website graphic design, business website design, corporate identity design, 
+                                    logo design, brochure design, banner design, and more. Our expertise extends to tailor solutions 
+                                    by partnering with vendors who match our passion for excellence. Our experience, coupled with our 
+                                    quality consciousness has helped us grow into a leading Software Development Company firm with a 
+                                    highly satisfied international clientele. This has been made possible by a team of experienced 
+                                    team eagerly helping our clients all over the world cater for the range of services they require 
+                                    and we have positioned as a one stop solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="features mt-4">
+                            <div class="text-center">
+                                <div class="mb-4">
+                                    <img src="images/home/home-bg-thinking.jpg" class="img-fluid rounded" alt="">
+                                    <!-- images/home/home-bg-thinking.jpg -->
+                                </div>
+
+                                <!-- <h4>Mission</h4>
+                                <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ABOUT END -->
 
         <!-- SERVICES START -->
         <section class="section bg-light" id="service">
@@ -348,7 +405,7 @@
                 </div>
 
                 <!-- portfolio menu -->
-                <div class="row mt-4">
+                <!-- <div class="row mt-4">
                     <div class="col-lg-12">
                         <div class="text-center">
                             <ul class="col container-filter categories-filter list-unstyled mb-0" id="filter">
@@ -361,7 +418,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- End portfolio  -->
 
             </div>
@@ -371,7 +428,7 @@
                 <div class="row container-grid mt-5 projects-wrapper">
                     <div class="img-max-width software">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software.jpg" title="Project Name"> -->
                                 <img class="item-container profile business" src="images/portfolio/Software.jpg" alt="1" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -379,13 +436,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width mobile">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile.jpg" title="Project Name"> -->
                                 <img class="item-container mfp-fade" src="images/portfolio/Mobile.jpg" alt="2" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -393,13 +450,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width website">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Website.jpg" alt="3" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -407,13 +464,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width logoDesign">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Logo.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Logo.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Logo.jpg" alt="4" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -421,13 +478,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width graphics">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Graphic.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Graphic.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Graphic.jpg" alt="5" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -435,13 +492,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width software">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software01.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Software01.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Software01.jpg" alt="6" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -449,13 +506,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width mobile">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile01.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Mobile01.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Mobile01.jpg" alt="7" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -463,13 +520,13 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
 
                     <div class="img-max-width website">
                         <div class="item-box">
-                            <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website01.jpg" title="Project Name">
+                            <!-- <a class="cbox-gallary1 mfp-image" href="images/portfolio/Website01.jpg" title="Project Name"> -->
                                 <img class="item-container" src="images/portfolio/Website01.jpg" alt="8" />
                                 <div class="item-mask">
                                     <div class="item-caption">
@@ -477,7 +534,7 @@
                                         <p class="text-light">client: Kay Garland</p>
                                     </div>
                                 </div>
-                            </a>
+                            <!-- </a> -->
                         </div>
                     </div>
                 </div>
@@ -492,7 +549,9 @@
                     <div class="col-lg-7">
                         <div class=" text-center">
                             <h4 class="title-heading text-uppercase">Testimonial</h4>
-                            <p >We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                            <p>Testimonials are the best way we can show how satisfied 
+                                our clients are with us and they are our best advertisement. 
+                                Just look what our clients have to say about VsoftSystems!</p>
                         </div>
                     </div>
                 </div>
@@ -562,7 +621,7 @@
                     <div class="col-lg-6">
                         <div class="text-center">
                             <h4 class="title-heading text-uppercase">OUR AMAZING TEAM</h4>
-                            <p >Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
+                            <p >Individually, we are one drop. Together, we are an ocean of creativity, passion, and excellence.
                             </p>
                         </div>
                     </div>
