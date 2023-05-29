@@ -33,48 +33,7 @@
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="/">Vsoft Sysstems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#web-services">Web Service</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#enterprise-solutions">Enterprise Solutions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#software-development">Software Development</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#technology-expertise">Technology Expertise</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cyber-security">Cyber Security</a>
-                </li>
-                {{--<li class="nav-item">
-                    <a class="nav-link" href="#web-services">Web Service</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#enterprise-solutions">Enterprise Solutions</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#cyber-security">Cyber / Intelligence Security</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#software-development">Software Development</a>
-                </li>--}}
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
