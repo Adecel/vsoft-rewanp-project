@@ -26,9 +26,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#articles">Articles</a>
                 </li>
-                <li class="nav-item">
+                {{--<li class="nav-item">
                     <a class="nav-link" href="#price">Store</a>
-                </li>
+                </li>--}}
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>

@@ -107,9 +107,6 @@
         </section>
 		<!-- HOME END-->
 
-        {{-- Floating Action Button #Fab--}}
-        <x-fab/>
-
         <!-- WELCOME START -->
         <section class="section" id="feature">
             <div class="container">
@@ -117,45 +114,52 @@
                     <div class="col-lg-7">
                         <div class="text-center">
                             <h4 class="title-heading">Starting with Vsoft Systems is easier than anything!</h4>
-                            <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                            <p >We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="row mt-4">
-                    <div class="col-lg-4">
-                        <div class="features mt-4">
-                            <div class="text-center">
-                                <div class="mb-4">
-                                    <img src="images/about/Mission.jpeg" class="img-fluid rounded" alt="">
-                                </div>
 
-                                <h4>Mission</h4>
-                                <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                    <div class="col-lg-4">
+                        <div class="shadow p-3 mb-5 bg-white rounded">
+                            <div class="features mt-4">
+                                <div class="text-center">
+                                    <div class="mb-4">
+                                        <img src="images/about/Mission.jpeg" class="img-fluid rounded" alt="">
+                                    </div>
+
+                                    <h4>Mission</h4>
+                                    <p class="features-desc text-muted mt-3 pl-2 pr-2">Our mission at Vsoft Systems is to empower businesses with the full transformative potential of technology. We achieve this by offering expert web and software development services customized to their specific needs and goals.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="features mt-4">
-                            <div class="text-center">
-                                <div class="mb-4">
-                                    <img src="images/about/Value.jpg" class="img-fluid rounded" alt="">
+                        <div class="shadow p-3 mb-5 bg-white rounded">
+                            <div class="features mt-4">
+                                <div class="text-center">
+                                    <div class="mb-4">
+                                        <img src="images/about/Value.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                    <h4>Vision</h4>
+                                    <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to become a top provider of advanced web and software development services. We aim to be recognized for our technical prowess, creativity, and unwavering dedication to delivering exceptional value to our clients.</p>
                                 </div>
-                                <h4>Vision</h4>
-                                <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4">
-                        <div class="features mt-4">
-                            <div class="text-center">
-                                <div class="mb-4">
-                                    <img src="images/about/Vision.jpg" class="img-fluid rounded" alt="">
+                        <div class="shadow p-3 mb-5 bg-white rounded">
+                            <div class="features mt-4">
+                                <div class="text-center">
+                                    <div class="mb-4">
+                                        <img src="images/about/Vision.jpg" class="img-fluid rounded" alt="">
+                                    </div>
+                                    <h4>Values</h4>
+                                    <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
                                 </div>
-                                <h4>Values</h4>
-                                <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
                             </div>
                         </div>
                     </div>
@@ -172,7 +176,7 @@
                     <div class="col-lg-7">
                         <div class="text-center">
                             <h4 class="title-heading text-uppercase">Our Services</h4>
-                            <p class="title-desc text-muted mt-3">Our service area covers the software
+                            <p class="title-desc mt-3">Our service area covers the software
                                 development life cycle using today’s
                                 languages on multiple development
                                 platforms. </p>
@@ -183,14 +187,14 @@
                 <div class="row mt-4">
 
                     <div class="col-lg-6">
-                        <a class="card1" href="/services/web-services">
+                        <a class="card1 shadow" href="/services/web-services">
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/monitor.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Web Services</h4>
-                                    <p class="text-muted mb-0">
+                                    <p class="mb-0">
                                         From custom web development and responsive design to robust e-commerce platforms and
                                         seamless integrations, VSOFT delivers tailored web services that align with your unique goals and drive growth. </p>
                                 </div>
@@ -204,14 +208,14 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <a class="card1" href="/services/enterprise-solutions">
+                        <a class="card1 shadow" href="/services/enterprise-solutions">
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/database.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Enterprise Solutions</h4>
-                                    <p class="text-muted mb-0">
+                                    <p class="mb-0">
                                         VSOFT's enterprise solutions revolutionize the way businesses operate, streamlining
                                         processes and maximizing productivity through advanced technology and automation.
                                     </p>
@@ -230,14 +234,14 @@
                 <div class="row mt-2">
 
                     <div class="col-lg-6">
-                        <a class="card1" href="/services/cyber-security">
+                        <a class="card1 shadow" href="/services/cyber-security">
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/cyber.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Cyber And Intelligence Security</h4>
-                                    <p class="text-muted mb-0">
+                                    <p class="mb-0">
                                         Our comprehensive suite of security services includes advanced threat detection,
                                         proactive monitoring, and incident response, empowering organizations to stay one step
                                         ahead of cybercriminals.
@@ -253,14 +257,14 @@
                     </div>
 
                     <div class="col-lg-6">
-                        <a class="card1" href="/services/software-dev">
+                        <a class="card1 shadow" href="/services/software-dev">
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/phone.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Software Development</h4>
-                                    <p class="text-muted mb-0">
+                                    <p class="mb-0">
                                         VSOFT's software development services offer tailor-made solutions that align with your
                                         business objectives, delivering high-performance applications that drive efficiency and
                                         innovation.
@@ -280,14 +284,14 @@
                 <div class="row mt-2">
 
                     <div class="col-lg-6">
-                        <a class="card1" href="/services/tech-expertise">
+                        <a class="card1 shadow" href="/services/tech-expertise">
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/phone.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Technology Expertise</h4>
-                                    <p class="text-muted mb-0">
+                                    <p class="mb-0">
                                         VSOFT's technology expertise services encompass a comprehensive range of solutions
                                         designed to empower businesses with the latest and most relevant technological
                                         advancements.
@@ -315,7 +319,7 @@
                     <div class="col-lg-6">
                         <div class="text-center">
                             <h4 class="title-heading text-uppercase">Our Portfolio</h4>
-                            <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
+                            <p >Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results!</p>
                         </div>
                     </div>
                 </div>
@@ -465,7 +469,7 @@
                     <div class="col-lg-7">
                         <div class=" text-center">
                             <h4 class="title-heading text-uppercase">Testimonial</h4>
-                            <p style="color:orange">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                            <p >We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
                         </div>
                     </div>
                 </div>
@@ -535,14 +539,14 @@
                     <div class="col-lg-6">
                         <div class="text-center">
                             <h4 class="title-heading text-uppercase">OUR AMAZING TEAM</h4>
-                            <p style="color:orange">Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
-
+                            <p >Conversion rates open a beautiful store, increase your conversion rates and boost your sales.
                             </p>
                         </div>
                     </div>
                 </div>
 
                 <div class="row mt-4">
+
                     <div class="col-lg-3">
                         <div class="team-member mt-4 text-center">
                             <img src="images/team/rusty.jpg" class="img-fluid" alt="">
@@ -557,8 +561,8 @@
                         <div class="team-member mt-4 text-center">
                             <img src="images/team/michael.jpg" class="img-fluid" alt="">
                             <div>
-                                <h4 class="mt-3">Marcelle Gant</h4>
-                                <p style="color:orange">Designer</p>
+                                <h4 class="mt-3">Aude Boyd</h4>
+                                <p style="color:orange">Manager</p>
                             </div>
                         </div>
                     </div>
@@ -588,13 +592,13 @@
         <!-- TEAM END -->
 
         <!-- BLOG START -->
-        <!-- <section class="section bg-light" id="articles">
+        <section class="section bg-light" id="articles">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="text-center">
-                            <h4 class="title-heading text-uppercase">Latest News</h4>
-                            <p style="color:orange">Huge collection of elements, rich customization options, flexible layouts, stunning pages and instant results.</p>
+                            <h4 class="title-heading text-uppercase">Latest News and Updates</h4>
+                            <p >Stay Informed with Our Latest Developments.</p>
                         </div>
                     </div>
                 </div>
@@ -603,18 +607,18 @@
 
                     @foreach($articles as $article)
 
-                        <a href="/articles/news/{{$article->TextNo}}">
-                            <div class="col-lg-4">
-                                <div class="blog-menu mt-4">
-                                    {{--<img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid" alt="">--}}
-                                    <img src="{{asset($article->PicBigURL)}}" class="img-fluid" alt="">
-                                    <div>
-                                        <h4><a href="/articles/news/{{$article->TextNo}}" class="blog-title">{{$article->Hdr}}</a></h4>
-                                        <p class="mt-2 text-muted">{{$article->IntroText}}</p>
-                                        <div class="mt-3">
-                                            <a href="/articles/news/{{$article->TextNo}}" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                        <a class="col-lg-4 card-article" href="/articles/news/{{$article->TextNo}}">
+                            <div class="shadow p-3 mb-5 bg-white rounded">
+                                <div class="features mt-4">
+                                    <div class="text-center">
+                                        <div class="mb-4 blog-image">
+                                            <img src="{{asset($article->PicBigURL)}}" class="img-fluid rounded" alt="">
                                         </div>
+
+                                        <h4>{{$article->Hdr}}</h4>
+                                        <p class="mt-2 text-muted">{{$article->IntroText}}</p>
                                     </div>
+
                                 </div>
                             </div>
                         </a>
@@ -626,11 +630,11 @@
                     <a href="/articles" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- BLOG END -->
 
         <!-- BLOG START -->
-        <section class="section bg-light" id="articles">
+        {{--<section class="section bg-light" id="articles">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
@@ -684,7 +688,7 @@
                     <a href="/articles" class="btn btn-custom">View Articles <i class="mdi mdi-arrow-right ml-2"></i></a>
                 </div>
             </div>
-        </section>
+        </section>--}}
         <!-- BLOG END -->
 
         <!-- CLIENT START -->
@@ -773,7 +777,7 @@
                     <div class="col-lg-7">
                         <div class="contact-head text-center">
                             <h4 class="title-heading text-uppercase">Contact us</h4>
-                            <p style="color:orange">Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
+                            <p >Thank you for your interest in VsoftSystem. Please use this form to contact us. <br>
                                                                     We will get back to you as soon as we can.</p>
                         </div>
                     </div>

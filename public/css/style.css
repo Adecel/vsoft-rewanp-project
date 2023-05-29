@@ -60,7 +60,7 @@ h5 {
 h6 {
     font-family: 'Gordita';
     font-weight: 500;
-    color: #FF6100;
+    color: #f25d21;
 }
 
 h6 {
@@ -83,7 +83,7 @@ p{
 ================================*/
 
 .bg-overlay {
-    background-color: rgb(255, 97, 0);
+    background-color: rgb(242, 93, 33);
     position: absolute;
     top: 0;
     right: 0;
@@ -157,7 +157,7 @@ p{
 }
 
 .text-custom{
-    color: #FF6100;
+    color: #f25d21;
 }
 
 .bg-custom{
@@ -292,6 +292,10 @@ p{
     font-weight: 700;
     font-size: 1.3rem;
     letter-spacing: 1px;
+}
+
+.title-heading {
+    color: #f25d21;
 }
 
 .title h1{
@@ -520,7 +524,7 @@ p{
 }
 
 .services-blog {
-    padding: 40px;
+    padding: 1px;
     /*background-color: #ffffff;*/
 }
 
@@ -532,6 +536,18 @@ p{
     padding: 5px;
     width: 50px;
     height: 50px;
+}
+
+.icons-team{
+    width: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons-team i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.274);
+    transition: all 0.2s ease;
 }
 
 .outlined{
@@ -772,7 +788,7 @@ p{
 }
 
 .read-btn:hover {
-    color: #f70033;
+    color: #f25d21;
 }
 
 
