@@ -287,7 +287,7 @@
                         <a class="card1 shadow" href="/services/tech-expertise">
                             <div class="services-blog">
                                 <div>
-                                    <img class="icons" src="{{asset('images/animations/phone.png')}}" alt="">
+                                    <img class="icons" src="{{asset('images/animations/technology.png')}}" alt="">
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Technology Expertise</h4>
@@ -299,6 +299,30 @@
                                 </div>
                             </div>
                             <div class="go-corner" href="/services/tech-expertise">
+                                <div class="go-arrow">
+                                    →
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <a class="card1 shadow" href="/services/chatbot-expertise">
+                            <div class="services-blog">
+                                <div>
+                                    <img class="icons" src="{{asset('images/animations/chatbot.png')}}" alt="">
+                                </div>
+                                <div class="service-head">
+                                    <h4 class="mb-2">Chat bot Expertise</h4>
+                                    <p class="mb-0">
+                                        Our state-of-the-art chatbot technology utilizes artificial intelligence and
+                                        natural language processing to deliver personalized experiences, streamline
+                                        workflows, and enhance customer satisfaction, all while seamlessly integrating
+                                        with existing systems for a seamless and efficient user experience.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="go-corner" href="/services/chatbot-expertise">
                                 <div class="go-arrow">
                                     →
                                 </div>
