@@ -15,21 +15,21 @@
                 <div class="row">
                     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
-                            <div class="carousel-item active" style="background-image:url('images/home/background03.jpg');">
+                            <div class="carousel-item active" style="background-image:url('images/home/home-bg-mac.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
                                                         <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
                                                             get you closer to your goals. Efficiency is performing a given task (whether
                                                             important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
@@ -41,21 +41,21 @@
                                 </div>
                             </div>
 
-                            <div class="carousel-item" style="background-image:url('images/home/call_center.jpeg');">
+                            <div class="carousel-item" style="background-image:url('images/home/home-bg-worker.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
                                                         <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
                                                             get you closer to your goals. Efficiency is performing a given task (whether
                                                             important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
@@ -67,21 +67,21 @@
                                 </div>
                             </div>
 
-                            <div class="carousel-item" style="background-image:url('images/home/call_center01.webp');">
+                            <div class="carousel-item" style="background-image:url('images/home/home-bg-thinking.jpg');">
                                 <div class="bg-overlay"></div>
                                 <div class="home-center">
                                     <div class="home-desc-center">
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-lg-12">
-                                                    <div class="text-center text-white">
+                                                    <div style="float: left" class="text-left text-white">
                                                         <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
                                                         <h2 class="home-title mb-4">LEADOUTSOURCE</h2>
                                                         <p class="home-desc text-white-50 mx-auto">“Effectiveness is doing the things that
                                                             get you closer to your goals. Efficiency is performing a given task (whether
                                                             important or not) in the most economical manner possible. Being efficient without
                                                             regard to effectiveness is the default mode of the universe.”</p>
-                                                        <div class="text-center pt-4">
+                                                        <div class="text-left pt-4">
                                                             <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
                                                             <a href="#about" class="btn btn-custom-white">About Us</a>
                                                         </div>
@@ -191,6 +191,7 @@
                             <div class="services-blog">
                                 <div>
                                     <img class="icons" src="{{asset('images/animations/monitor.png')}}" alt="">
+                                    {{--<i class="fab fa-instagram"></i>--}}
                                 </div>
                                 <div class="service-head">
                                     <h4 class="mb-2">Web Services</h4>
