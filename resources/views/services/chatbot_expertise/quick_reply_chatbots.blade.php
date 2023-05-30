@@ -53,7 +53,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="text-left text-white">
-                            <h2 class="home-title mb-4">Convesational Agent</h2>
+                            <h2 class="home-title mb-4">Chquick reply chatbots</h2>
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/services/chatbot-expertise" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Chat bot Expertise</i></a>
                             </div>
@@ -75,7 +75,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading">Convesational Agent Service</h4>
+                    <h4 class="title-heading">Chquick reply chatbots Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                     Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 

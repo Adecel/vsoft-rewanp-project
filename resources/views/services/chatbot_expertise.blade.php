@@ -19,7 +19,7 @@
                     <div class="col-lg-9">
                         <div class="text-left text-white">
                             <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Technology Expertise</h2>
+                            <h2 class="home-title mb-4">Chat bot Expertise</h2>
                             <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="#feature" class="btn btn-custom"> More <i class="mdi mdi-arrow-down ml-2"></i></a>
@@ -34,79 +34,107 @@
 <!-- HOME END-->
 
 <!-- WELCOME START -->
-<section class="section" id="technology-expertise">
+<section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
-                    <h4 class="title-heading">Technology Expertise</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <h4 class="title-heading">Chat bot Expertise</h4>
+                    <p class="title-desc text-muted mt-3">Here goes the small description about "Chat bot Expertise"</p>
                 </div>
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-lg-4">
-                <a href="/services/tech-expertise/ms-with-health-&-safety">
+                <a href="/services/chatbot-expertise/chat-bot">
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="/images/about/TechnologyEnt/mining.jpg" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
-
-                            <h4>Mining Solution with Health & Safety</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                            <h4>Chat bot</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from ! How to look past the sales pitch !</p>
                         </div>
                     </div>
                 </a>
             </div>
 
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <a href="/services/tech-expertise/rfid-solutions">
+                <a href="/services/chatbot-expertise/contextual-chatbots">
+                    <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="/images/services/technology_enterprise_images/rfid.jpg" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
                             </div>
-                            <h4>RFID Solutions</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Our vision is to be a leading provider of cutting-edge web and software development services, known for our technical expertise, creativity, and commitment to delivering exceptional value to our clients.</p>
+                            <h4>Contextual Chatbot</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
                         </div>
-                </div>
+                    </div>
                 </a>
             </div>
 
             <div class="col-lg-4">
-                <div class="features mt-4">
-                    <a href="/services/tech-expertise/cloud-computing">
+                <a href="/services/chatbot-expertise/hybrid-chatbots">
+                    <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="/images/services/technology_enterprise_images/cloud.jpg" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
-                            <h4>Cloud Computing</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">We value collaboration, innovation, and a strong work ethic. We believe in building strong partnerships with our clients, staying on the cutting edge of technological developments, and going the extra mile to deliver outstanding results.</p>
+                            <h4>Hybrid chatbots</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
                         </div>
-                </div>
+                    </div>
+                </a>
             </div>
-            </a>
         </div>
-
         <div class="row mt-4">
             <div class="col-lg-4">
-                <a href="/services/tech-expertise/remote-desktop-support">
+                <a href="/services/chatbot-expertise/quick-reply-chatbots">
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="/images/services/technology_enterprise_images/remotedsktop.jpg" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
-
-                            <h4>Remote Desktop Support</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p>
+                            <h4>quick reply chatbots</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from ! How to look past the sales pitch !</p>
                         </div>
                     </div>
+                </a>
             </div>
 
+            <div class="col-lg-4">
+                <a href="/services/chatbot-expertise/virtual-assitant">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>virtual assitant</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4">
+                <a href="/services/chatbot-expertise/Voice-enabled-chatbots">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
+                            </div>
+                            <h4>Voice enabled chatbots</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
+
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
-        </a>
+
+
+
     </div>
 </section>
 <!-- WELCOME END -->

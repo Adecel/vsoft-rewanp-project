@@ -184,8 +184,20 @@ Route::get('/services/chatbot-expertise', function (){
 Route::get('/services/chatbot-expertise/chat-bot', function (){
     return view('services.chatbot_expertise.chat_bot');
 });
-Route::get('/services/chatbot-expertise/convesational-agent', function (){
-    return view('services.chatbot_expertise.convesational_agent');
+Route::get('/services/chatbot-expertise/contextual-chatbots', function (){
+    return view('services.chatbot_expertise.contextual_chatbots');
+});
+Route::get('/services/chatbot-expertise/hybrid-chatbots', function (){
+    return view('services.chatbot_expertise.hybrid_chatbots');
+});
+Route::get('/services/chatbot-expertise/quick-reply-chatbots', function (){
+    return view('services.chatbot_expertise.quick_reply_chatbots');
+});
+Route::get('/services/chatbot-expertise/virtual-assitant', function (){
+    return view('services.chatbot_expertise.virtual_assitant');
+});
+Route::get('/services/chatbot-expertise/Voice-enabled-chatbots', function (){
+    return view('services.chatbot_expertise.Voice_enabled_chatbots');
 });
 // /services/chatbot-expertise/chat-bot
 
