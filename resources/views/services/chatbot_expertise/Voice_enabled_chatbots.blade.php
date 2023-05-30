@@ -88,44 +88,6 @@
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
 <!-- WELCOME END -->

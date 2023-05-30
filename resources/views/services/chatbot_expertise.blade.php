@@ -51,10 +51,10 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Chatbot_Service.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Chat bot</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from ! How to look past the sales pitch !</p>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">A chatbot is a software or computer program that simulates human conversation or "chatter" through text or voice interactions.</p>
                         </div>
                     </div>
                 </a>
@@ -65,7 +65,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Contextual_Chatbot_Service.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Contextual Chatbot</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
@@ -79,7 +79,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Hybrid_Chatbots_Service.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Hybrid chatbots</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>
@@ -94,10 +94,10 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/website_design.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Quick_reply_chatbots_Service.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>quick reply chatbots</h4>
-                            <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from ! How to look past the sales pitch !</p>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">As the most basic chatbots, they act as a hierarchical decision tree.</p>
                         </div>
                     </div>
                 </a>
@@ -108,7 +108,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/web_maintenance.jpeg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Virtual_assistant_Service.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>virtual assitant</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p>
@@ -122,7 +122,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/Web_Development.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Voice_enabled_chatbots.jpg')}}" class="img-fluid rounded" alt="">
                             </div>
                             <h4>Voice enabled chatbots</h4>
                             <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p>

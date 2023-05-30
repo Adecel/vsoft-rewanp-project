@@ -70,13 +70,12 @@
 <x-fab/>
 
 <!-- WELCOME START -->
-<section class="section" id="feature">
+<!-- <section class="section" id="feature">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Contextua Chatbot Service</h4>
-                    <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
                     Contextual chatbots. These chatbots are more complex than others and require a 
                     data-centric focus. They use AI and ML to remember user conversations and interactions, 
@@ -85,7 +84,7 @@
                     self-improve.<br>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     <!-- ABOUT START -->
     <section class="section" id="about" id="feature">
@@ -128,7 +127,7 @@
                     <div class="features mt-4">
                         <div class="text-center">
                             <div class="mb-4">
-                                <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                                <img src="{{asset('images/services/chatbot_expertise/Contextual_Chatbot_Service.jpg')}}" class="img-fluid rounded" alt="">
                                 <!-- images/home/home-bg-thinking.jpg -->
                             </div>
 
