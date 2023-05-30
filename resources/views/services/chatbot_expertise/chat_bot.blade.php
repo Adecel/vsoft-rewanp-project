@@ -78,19 +78,16 @@
                     <h4 class="title-heading">Chat bot Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
+                    A chatbot is a software or computer program that simulates human conversation or "chatter" through 
+                    text or voice interactions.<br>
                     <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
+                    Advanced AI-based bots utilize a database of information, deep learning, machine learning, and NLP 
+                    to recognize patterns in conversation. This allows them to respond realistically and engage users 
+                    as humans do!<br>
+                    Users in both business-to-consumer (B2C) and business-to-business (B2B) environments increasingly 
+                    use chatbot virtual assistants to handle simple tasks. Adding chatbot assistants reduces overhead 
+                    costs, uses support staff time better and enables organizations to provide customer service during 
+                    hours when live agents aren't available.<br>
                   </p>
                 </div>
             </div>

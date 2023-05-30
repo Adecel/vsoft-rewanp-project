@@ -78,61 +78,70 @@
                     <h4 class="title-heading">Contextua Chatbot Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
-                  </p>
+                    Contextual chatbots. These chatbots are more complex than others and require a 
+                    data-centric focus. They use AI and ML to remember user conversations and interactions, 
+                    and use these memories to grow and improve over time. Instead of relying on keywords, 
+                    these bots use what customers ask and how they ask it to provide answers and 
+                    self-improve.<br>
                 </div>
             </div>
         </div>
 
-        <div class="row mt-4">
-            <div class="col-lg-4">
-                <div class="features mt-4">
+    <!-- ABOUT START -->
+    <section class="section" id="about" id="feature">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
                     <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Website Design</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">Finding a professional web design company is a tiresome job so many to choose from !</p> -->
+                        <h4 class="title-heading">Contextua Chatbot Service</h4>
+                        <!-- <p class="title-desc text-muted mt-3">Small quote about what goes with ITHIMBA </p> -->
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <!-- <div class="mb-4">
+                                <img src="images/about/2.jpg" class="img-fluid rounded" alt="">
+                            </div> -->
+
+                            <!-- <h4>Software Development Company</h4> -->
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">
+                            Contextual chatbots. These chatbots are more complex than others and require a 
+                            data-centric focus. They use AI and ML to remember user conversations and interactions, 
+                            and use these memories to grow and improve over time. Instead of relying on keywords, 
+                            these bots use what customers ask and how they ask it to provide answers and 
+                            self-improve.
+                        <br>
+                        The rapidly evolving digital world is altering and increasing customer expectations. 
+                        Many consumers expect organizations to be available 24/7 and believe an organization's 
+                        CX is as important as its product or service quality. Furthermore, buyers are more informed 
+                        about the variety of products and services available and are less likely to remain loyal to 
+                        a specific brand.
+                    </p>
                         </div>
-                        <!-- <h4>Web Maintenance</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">We at Vsoft Systems, with our website maintenance team we will focus on enhancing existing</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="features mt-4">
+                        <div class="text-center">
+                            <div class="mb-4">
+                                <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
+                                <!-- images/home/home-bg-thinking.jpg -->
+                            </div>
+
+                            <!-- <h4>Mission</h4>
+                            <p class="features-desc text-muted mt-3 pl-2 pr-2">At Vsoft Systems, our mission is to empower businesses to leverage the full potential of technology, by providing expert web and software development services that are tailored to their unique needs and goals.</p> -->
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-lg-4">
-                <div class="features mt-4">
-                    <div class="text-center">
-                        <div class="mb-4">
-                            <img src="{{asset('images/services/web_services_images/website_design/image2.jpg')}}" class="img-fluid rounded" alt="">
-                        </div>
-                        <!-- <h4>Web Development</h4>
-                        <p class="features-desc text-muted mt-3 pl-2 pr-2">VsoftSytems offers a professional Website development service to help you successfully plan,</p> -->
-                    </div>
-                </div>
-            </div>
         </div>
+    </section>
+    <!-- ABOUT END -->
 
     </div>
 </section>

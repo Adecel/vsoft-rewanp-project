@@ -78,19 +78,11 @@
                     <h4 class="title-heading">Voice enabled chatbots Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
-                    <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
-                    <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
+                    Voice-enabled chatbots. This type of chatbot is the future of this technology. 
+                    Voice-enabled chatbots use spoken dialogue from users as input that prompts 
+                    responses or creative tasks. Developers can create these chatbots using 
+                    text-to-speech and voice recognition APIs. Examples include Amazon Alexa 
+                    and Apple's Siri.<br>
                   </p>
                 </div>
             </div>

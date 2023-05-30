@@ -78,19 +78,13 @@
                     <h4 class="title-heading">Chquick reply chatbots Service</h4>
                     <!-- <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p> -->
                     <p>
-                    Finding a professional web design company is a tiresome job so many to choose from !!. How to look past the sales pitch !! 
-                    .This statement is true, since a professional and skillful web design company will be thorough in the design and development 
-                    of your website. When you want to review or add a website following points must be taken into account in website redesigning 
-                    services, you need to consider the following questions:<br>
+                        Scripted or quick reply chatbots. As the most basic chatbots, they act as a hierarchical decision tree. 
+                        These bots interact with users through predefined questions that progress until the chatbot answers 
+                        the user's question.
                     <br>
-                    Is your website up to date? <br>
-                    Is the look and feel appealing? <br>
-                    Is the design compatible with search engines? <br>
-                    Does it portray a professional image? <br>
-                    And most importantly, is it generating leads/sales? <br>
+                        Similar to this bot is the menu-based chatbot that requires users to make selections from a predefined 
+                        list, or menu, to provide the bot with a deeper understanding of what the customer needs.
                     <br>
-                    If the answer is No! You instantly need to get website redesign services, and we will be more than happy to help you. 
-                    For free website review and consultation please contact us.
                   </p>
                 </div>
             </div>
