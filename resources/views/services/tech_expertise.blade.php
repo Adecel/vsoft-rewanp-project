@@ -6,46 +6,11 @@
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#service">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#client">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#price">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
+<section class="bg-home-half-two" style="background-image: url('../images/services/rfid.jpg');" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -66,7 +31,7 @@
         </div>
     </div>
 </section>
-<!-- HOME END-->             
+<!-- HOME END-->
 
 <!-- WELCOME START -->
 <section class="section" id="technology-expertise">
@@ -75,7 +40,11 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Technology Expertise</h4>
-                    <p class="title-desc text-muted mt-3">We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have meaning and add a value.</p>
+                    <p class="title-desc text-muted mt-3">
+                        VSOFT's technology expertise services encompass a comprehensive range of solutions
+                        designed to empower businesses with the latest and most relevant technological
+                        advancements.
+                    </p>
                 </div>
             </div>
         </div>

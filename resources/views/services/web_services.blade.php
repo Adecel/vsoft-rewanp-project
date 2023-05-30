@@ -6,46 +6,11 @@
 
 <body>
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
-    <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="mdi mdi-menu"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="/#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#service">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#client">Clients</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#team">Team</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#articles">Articles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#price">Store</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<x-services_nav/>
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" id="home">
+<section class="bg-home-half-two" style="background-image: url('/images/services/website_design.jpg');" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -75,7 +40,10 @@
             <div class="col-lg-7">
                 <div class="text-center">
                     <h4 class="title-heading">Web Services</h4>
-                    <p class="title-desc text-muted mt-3">Here goes the small description about "web_services"</p>
+                    <p class="title-desc text-muted mt-3">
+                        From custom web development and responsive design to robust e-commerce platforms and
+                        seamless integrations, VSOFT delivers tailored web services that align with your unique goals and drive growth. </p>
+                    </p>
                 </div>
             </div>
         </div>

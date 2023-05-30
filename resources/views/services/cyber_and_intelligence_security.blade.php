@@ -10,7 +10,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half" id="home">
+<section class="bg-home-half-two" style="background-image: url('../images/services/cyber_security/extract.jpg');" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -25,7 +25,7 @@
                                 <a href="#cyber-security" class="btn btn-custom"> More <i class="mdi mdi-arrow-down ml-2"></i></a>
                             </div>
                         </div>
-                    </div>9
+                    </div>
                 </div>
             </div>
         </div>

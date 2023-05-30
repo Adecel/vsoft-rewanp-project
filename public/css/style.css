@@ -478,8 +478,8 @@ p{
     position: relative;
 }
 
-.bg-home-half-two {
-    background-image: url('home-bg-thinking.jpg');
+.bg-home-half-two {/*
+    background-image: url('home-bg-thinking.jpg');*/
     background-size: cover;
     background-position: center center;
     padding: 70px 100px 10px;
