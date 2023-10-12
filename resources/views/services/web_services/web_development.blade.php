@@ -130,7 +130,13 @@
                 <div class="text-center">
                     <!-- <h4 class="title-heading">Development Process</h4> -->
                     <div class="mb-4">
-                        <img src="{{asset('images/services/web_services_images/Web_Development/test_long_img.jpg')}}" class="img-fluid rounded" alt="">
+                        <img src="{{asset('images/services/web_services_images/Web_Development/inWebDevelopment01.jpg')}}" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="mb-4">
+                        <img src="{{asset('images/services/web_services_images/Web_Development/inWebDevelopment02.jpg')}}" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="mb-4">
+                        <img src="{{asset('images/services/web_services_images/Web_Development/image.jpg')}}" class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>

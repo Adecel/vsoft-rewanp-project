@@ -1,26 +1,4 @@
-/* Theme Name: Oxavia - Responsive One Page HTML5 Template
-   Author: MyraStudio
-   Version: 1.0.0
-   File Description: Main CSS file of the template
-*/
-
-/****************************
-*   1  :  Helper            *
-*   2  :  Navbar-custom     *
-*   3  :  Title             *
-*   4  :  Home              *
-*   5  :  Features          *
-*   6  :  SERVICES          *
-*   7  :  Clients           *
-*   8  :  Portfolio         *
-*   9  :  Blog              *
-*   10 :  Team              *
-*   11 :  Pricing           *
-*   12 :  Contact           *
-*   13 :  Footer            *
-*   14 :  Responsive        *
-*****************************/
-
+/*the css for the main pages*/
 @font-face {
     font-family: 'Gordita';
     font-style: normal;
@@ -83,7 +61,7 @@ p{
 ================================*/
 
 .bg-overlay {
-    background-color: rgba(242, 93, 33, 0.66);
+    /* background-color: rgba(128, 128, 128, 0.51); */
     position: absolute;
     top: 0;
     right: 0;
@@ -460,6 +438,7 @@ p{
 }
 
 .home-title {
+    margin-top: 50px;
     font-size: 42px;
     line-height: 60px;
 }
@@ -964,6 +943,11 @@ textarea.form-control {
 
 .twitter {
     background-color: #55acee;
+    color: #ffffff;
+}
+
+.linkedin {
+    background-color: #0a66c2;
     color: #ffffff;
 }
 

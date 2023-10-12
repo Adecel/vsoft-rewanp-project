@@ -9,7 +9,10 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
     <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
+        <!--<a class="navbar-brand logo" href="#">Vsoft Systems</a>-->
+        <a class="navbar-brand logo" href="/#">
+            <img src="{{asset('images/logo/vsoft_colour.png')}}" alt="Vsoft Systems" style="width: 180px; height: 30px;">
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="mdi mdi-menu"></i>
         </button>
@@ -46,7 +49,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
+<section class="bg-home-half-two" style="background-image: url('/images/services/website_design.jpg');" class="bg-home-half" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -54,7 +57,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="text-left text-white">
-                            <h2 class="home-title mb-4">All ARTICLES</h2>
+                            <!--<h2 class="home-title mb-4">All ARTICLES</h2>-->
+                            <h2 class="home-title mb-4" style="color:#fff;" ><b>All ARTICLES</b></h2>
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/#articles" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">LATEST NEWS</i></a>
                             </div>
@@ -68,86 +72,69 @@
 <!-- HOME END-->
 
 
-{{-- Floating Action Button #Fab--}}
-<x-fab/>
-
 <!-- WELCOME START -->
 <section class="section" id="feature">
     <div class="container">
         <div class="text-center">
             <h4 class="title-heading">ALL ARTICLES</h4>
         </div>
-{{--
 
-        @if(!empty($allArticles) && $allArticles->count())
-            @foreach($allArticles as $article)
-                <br>
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <div class="text-left">
-                            <h5>{{$article->Hdr}}</h5>
-                            <!-- <h6 class="title-heading">24. Apr. 2024 Cape Argus</h6> -->
-                            <p class="title-desc text-muted mt-3">{{$article->PublishDate}} - {{$article->Source}}</p>
-                            <p>
-                                {{$article->IntroText}}
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="text-center">
-                            <!-- <h4 class="title-heading">Development Process</h4> -->
-                            <div class="mb-4">
-                                <img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid rounded" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <br>
-            @endforeach
-        @else
-            <div>
-                <p>There are no data.</p>
-            </div>
-        @endif
+        <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9">
 
-        <div>
-            {!! $allArticles->links() !!}
-        </div>
---}}
+                <div class="row mt-4">
 
+                    @if(!empty($allArticles) && $allArticles->count())
+                        @foreach($allArticles as $article)
+                        
+                        <a class="col-lg-6 card-article" href="/articles/news/{{$article->TextNo}}">
+                                <div class="shadow p-3 mb-5 bg-white rounded">
+                                    <div class="features mt-4">
+                                        <div class="text-left">
+                                            <div class="mb-4 blog-image">
 
-        <div class="row mt-4">
+                                                <img src="{{asset($article->FileFolder.$article->FileTop)}}" style="height: 150px; width: 300px" class="img-fluid rounded" alt="">
 
-            @if(!empty($allArticles) && $allArticles->count())
-                @foreach($allArticles as $article)
+                                            </div>
 
-                <a href="/articles/news/{{$article->TextNo}}">
-                    <div class="col-lg-4 mt-5">
-                        <div class="blog-menu mt-4">
-                            <img src="{{asset('images/blog/allNews01.jpg')}}" class="img-fluid" alt="">
-                            <div>
-                                <h4><a href="/articles/news/{{$article->TextNo}}" class="blog-title">{{$article->Hdr}}</a></h4>
-                                <p class="mt-2 text-muted">{{$article->IntroText}}</p>
-                                <div class="mt-3">
-                                    <a href="/articles/news/{{$article->TextNo}}" class="read-btn">Read More <i class="mdi mdi-arrow-right"></i></a>
+                                            <h4>{{$article->Hdr}}</h4>
+
+                                            <p class="mt-2 text-muted">{{ Illuminate\Support\Str::limit($article->IntroText, 250, ' ... ') }}</p>
+                                            <p class="mt-2 btn-link blog-link " >Read More</p>
+
+                                        </div>
+
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
+
+                        @endforeach
+                    @else
+                        <div>
+                            <p>There are no data.</p>
                         </div>
+                    @endif
+
+                    <div class="mt-4">
+                        {!! $allArticles->links() !!}
                     </div>
-                </a>
 
-                @endforeach
-            @else
-                <div>
-                    <p>There are no data.</p>
+                    </div>
+
                 </div>
-            @endif
 
-            <div class="mt-4">
-                {!! $allArticles->links() !!}
+            <div class="col-lg-3">
+                <div class="text-center">
+                    <div class="mb-4">
+                        <img src="{{asset('images/services/web_services_images/Web_Development/inWebDevelopment01.jpg')}}" class="img-fluid rounded" alt="">
+                    </div>
+                </div>
             </div>
-
         </div>
+
+
+    </div>
 
     </div>
 </section>

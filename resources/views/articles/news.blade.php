@@ -8,7 +8,10 @@
 <!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-custom sticky">
     <div class="container">
-        <a class="navbar-brand logo" href="#">Vsoft Systems</a>
+        <!--<a class="navbar-brand logo" href="#">Vsoft Systems</a>-->
+        <a class="navbar-brand logo" href="/#">
+            <img src="{{asset('/images/logo/vsoft_colour.png')}}" alt="Vsoft Systems" style="width: 180px; height: 30px;">
+        </a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="mdi mdi-menu"></i>
         </button>
@@ -45,7 +48,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
+<section class="bg-home-half-two" style="background-image: url('/images/services/website_design.jpg');" id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -53,7 +56,7 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-9">
                         <div class="text-left text-white">
-                            <h2 class="home-title mb-4">Article Main Page</h2>
+                            <h2 class="home-title mb-4" style="color:#fff;" ><b>Article Main Page</b></h2>
                             <div class="text-left pt-4 navbar-nav" style="width: 250px">
                                 <a href="/#articles" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">LATEST NEWS</i></a>
                             </div>
@@ -67,8 +70,6 @@
 <!-- HOME END-->
 
 
-{{-- Floating Action Button #Fab--}}
-<x-fab/>
 
 <!-- WELCOME START -->
 <section class="section" id="feature">
@@ -82,9 +83,10 @@
                 <div class="text-left">
                     <!-- <h5>Home Affairs rejects almost 9 000 ‘refugees’ in 12 months</h5> -->
                     <!-- <h6 class="title-heading">24. Apr. 2024 Cape Argus</h6> -->
-                    <p class="title-desc text-muted mt-3">{{$article[0]->PublishDate}} - {{$article[0]->source}}</p>
+                    <p class="title-desc text-muted mt-3">{{$article[0]->PublishDate}} <br> {{$article[0]->source}}</p>
                     <p>
-                        {{$article[0]->Text}}
+                        {{--{{$article[0]->Text}}--}}
+                        {!! nl2br($article[0]->Text) !!}
                     </p>
                 </div>
             </div>
@@ -92,7 +94,7 @@
                 <div class="text-center">
                     <!-- <h4 class="title-heading">Development Process</h4> -->
                     <div class="mb-4">
-                        <img src="{{asset('images/blog/allNews02.jpg')}}" class="img-fluid rounded" alt="">
+                        <img src="{{asset($article[0]->FileFolder.$article[0]->FileMiddle1)}}" class="img-fluid rounded" alt="">
                     </div>
                 </div>
             </div>

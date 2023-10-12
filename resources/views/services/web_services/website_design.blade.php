@@ -45,7 +45,7 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
+<section class="bg-home-half-two"  id="home">
     <div class="bg-overlay"></div>
     <div class="home-center">
         <div class="home-desc-center">
@@ -66,8 +66,8 @@
 </section>
 <!-- HOME END-->
 
-{{-- Floating Action Button #Fab--}}
-<x-fab/>
+<!-- {{-- Floating Action Button #Fab--}}
+<x-fab/> -->
 
 <!-- WELCOME START -->
 <section class="section" id="feature">

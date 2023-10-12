@@ -45,23 +45,149 @@
 <!-- NAVBAR END-->
 
 <!-- HOME START-->
-<section class="bg-home-half-two" class="bg-home-half" id="home">
-    <div class="bg-overlay"></div>
-    <div class="home-center">
-        <div class="home-desc-center">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="text-left text-white">
-                            <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">We create the web</h5> -->
-                            <h2 class="home-title mb-4">Game Development</h2>
-                            <!-- <p class="home-desc text-white-50 mx-auto">Maecenas class semper class semper sollicitudin lectus lorem iaculis imperdiet aliquam vehicula tempor auctor curabitur pede aenean ornare.</p> -->
-                            <div class="text-left pt-4 navbar-nav" style="width: 250px">
-                                <a href="/services/software-development" class="btn btn-custom"><i class="mdi mdi-arrow-left ml-2">Web Services</i></a>
+<section class="home-slider" id="home">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image:url('images/home/home_01.jpg');">
+                        <div class="bg-overlay"></div>
+                        <div class="home-center">
+                            <div class="home-desc-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div style="float: left" class="text-left text-white">
+                                                <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
+                                                <h2  class="home-title mb-4" style="color:#fff;font-family:Lato;">
+                                                VSOFT SYSTEMS
+                                                </h2>
+                                                <p class="home-desc text-left text-white-50 mx-auto">
+                                                    <span style="color:#fff;">
+                                                        Your end-to-end product development partner.
+                                                            We accelerate development cycles using agile methodology for startups and enterprises across industries."
+                                                    </span>
+                                                </p>
+                                                <div class="text-left pt-4">
+                                                    <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>
+                                                    <a href="#feature" class="btn btn-custom-white">About Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" style="background-image:url('images/home/home_02.jpg');">
+                        <div class="bg-overlay"></div>
+                        <div class="home-center">
+                            <div class="home-desc-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div style="float: left" class="text-justify text-white">
+                                                <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
+                                                <h2 class="home-title mb-4" style="color:#fff;"><b>VSOFT SYSTEMS</b></h2>
+                                                <p class="home-desc text-left text-white-50 mx-auto">
+                                                    <span style="color:#fff;">
+                                                            "We're a global web design company <br>
+                                                            custom solutions for businesses worldwide.<br>
+                                                        Our expertise includes high-end website <br>
+                                                        design,e-commerce, and specialist solutions."<br>
+                                                    </span>
+                                                </p>
+                                                <div class="text-left pt-4">
+                                                    <a href="#contact" class="btn btn-custom mr-2">Contact Us</a> 
+                                                    
+                                                    <a href="#feature" class="btn btn-custom-white"style="color:#f25d21;">About Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" style="background-image:url('images/home/home_03.jpg');">
+                        <div class="bg-overlay"></div>
+                        <div class="home-center">
+                            <div class="home-desc-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div style="float: left" class="text-justify text-white">
+                                                <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
+                                                <h2 class="home-title mb-4" style="color:#fff;"><b>VSOFT SYSTEMS</b></h2>
+                                                <p class="home-desc text-left text-white-50 mx-auto">
+                                                    <span style="color:#fff;">
+                                                    <b>"We're a global web design company providing custom <br>
+                                                        solutions for businesses worldwide. Our expertise <br>
+                                                        includes high-end website design, e-commerce, and<br>
+                                                            specialist solutions."<br></b>
+                                                    </span>
+                                                </p>
+                                                <div class="text-left pt-4">
+                                                    <a href="#contact" class="btn btn-custom mr-2">Contact Us</a> 
+                                                    
+                                                    <a href="#feature" class="btn btn-custom-white"style="color:#f25d21;">About Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item" style="background-image:url('images/home/home_2.jpg');">
+                        <div class="bg-overlay"></div>
+                        <div class="home-center">
+                            <div class="home-desc-center">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div style="float: left" class="text-left text-white">
+                                                <!-- <h5 class="home-small-title text-uppercase text-white-50 mb-4">Awesome Design</h5> -->
+                                                <h2 class="home-title mb-4" style="color:fff;font-family:Play Fair;">
+                                                    <b>VSOFT<br>
+                                                        <span style="color: #f25d21;font-family:Play Fair;">
+                                                            SYSTEMS</b>
+                                                        </span>
+                                                        
+                                                </h2>
+                                                    <p class="home-desc text-left text-white-50 mx-auto">
+                                                        <span style="color: #fff;">
+                                                            "Outsource your IT needs to Vsoft Systems. We specialize in web design, development, offshore software, and SEO solutions.
+                                                        </span>
+                                                    </p>
+                                                
+                                                <div class="text-left pt-4">
+                                                    
+                                                    <!-- <a href="#contact" class="btn btn-custom mr-2">Contact Us</a>  -->
+                                                    <a href="#contact" class="btn" style="background-color: #f25d21; color: white;">Contact Us</a>
+
+                                                    <a href="#feature" class="btn btn-custom-white">About Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
     </div>
@@ -96,32 +222,30 @@
     </div>
   </div>
 </div>
-<div class="container">
+<!-- <div class="container">
 <div class="mb-3">
-    <img src="/images/about/game_dev.jpg" class="img-fluid rounded alt=" >
+    <img src="/images/services/software_development_images/game_dev.jpg" class="img-fluid rounded alt=" >
     </div>
-</div>
+</div> -->
 <h3>The range of mobile games that we can develop includes the following:<b></h3>
 <div class="row">
   <div class="col-md-2">
-  
-    <img src="/images/about/SoftwareDev/jigsaw.png" class="img-fluid rounded alt=" >
-   
+    <img src="/images/services/software_development_images/jigsaw.png" class="img-fluid rounded alt=" >
   </div>
   <div class="col-md-2">
-  <img src="/images/about/SoftwareDev/scrabble.png" class="img-fluid rounded alt=" >
+  <img src="/images/services/software_development_images/scrabble.png" class="img-fluid rounded alt=" >
   </div>
   <div class="col-md-2">
-  <img src="/images/about/SoftwareDev/money.png" class="img-fluid rounded alt=" >
+  <img src="/images/services/software_development_images/money.png" class="img-fluid rounded alt=" >
   </div>
   <div class="col-md-2">
-    <img src="/images/about/SoftwareDev/battle.png" class="img-fluid rounded alt=" >
+    <img src="/images/services/software_development_images/battle.png" class="img-fluid rounded alt=" >
 </div>
   <div class="col-md-2">
-  <img src="/images/about/SoftwareDev/board-game.png" class="img-fluid rounded alt=" >
+  <img src="/images/services/software_development_images/board-game.png" class="img-fluid rounded alt=" >
   </div>
   <div class="col-md-2">
-  <img src="/images/about/SoftwareDev/poker-cards.png" class="img-fluid rounded alt=" >
+  <img src="/images/services/software_development_images/poker-cards.png" class="img-fluid rounded alt=" >
   </div>
 </div>
 </section>

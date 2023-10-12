@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Home\QuoteController;
+use App\Http\Controllers\Home\QuotePDFController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -199,11 +202,40 @@ Route::get('/services/chatbot-expertise/virtual-assitant', function (){
 Route::get('/services/chatbot-expertise/Voice-enabled-chatbots', function (){
     return view('services.chatbot_expertise.Voice_enabled_chatbots');
 });
+
+//Services / digital marketing services /
+Route::get('/services/digital-marketing-services', function (){
+    return view('services.digital_marketing_services');
+});
+// Route::get('/services/chatbot-expertise/chat-bot', function (){
+//     return view('services.chatbot_expertise.chat_bot');
+// });
+
+//Services / smart ai services /
+Route::get('/services/smart-ai-services', function (){
+    return view('services.smart_ai_services');
+});
+// Route::get('/services/chatbot-expertise/chat-bot', function (){
+//     return view('services.chatbot_expertise.chat_bot');
+// });
+
+//Services / branding solutions /
+Route::get('/services/branding-solutions', function (){
+    return view('services.branding_solutions');
+});
+// Route::get('/services/chatbot-expertise/chat-bot', function (){
+//     return view('services.chatbot_expertise.chat_bot');
+// });
+
 // /services/chatbot-expertise/chat-bot
 
   // Articles
  Route::get('/articles', [\App\Http\Controllers\IndexController::class, 'getAllArticles']);
  Route::get('/articles/news/{id}', [\App\Http\Controllers\IndexController::class, 'readArticle']);
+
+// Articles2
+Route::get('/articles2', [\App\Http\Controllers\IndexController::class, 'getAllArticles2']);
+Route::get('/articles2/news/{id}', [\App\Http\Controllers\IndexController::class, 'readArticle2']);
 
   //components / services_services /
   Route::get('/components/services-services/game-Development', function (){
@@ -215,6 +247,32 @@ Route::get('/services/chatbot-expertise/Voice-enabled-chatbots', function (){
  Route::get('/components/services-services/mobile-Application-Development', function (){
     return view('components.services_services.mobile_Application_Development');
  });
+
+//portfolio/all_portfolio /  test_portfolio.blade
+Route::get('/portfolios/all-portfolio', function (){
+    return view('portfolios.all_portfolio');
+ });
+//  Route::get('/portfolios/test-portfolio', function (){
+//     return view('portfolios.test_portfolio');
+//  });
+
+//quote
+Route::get('/quote', function (){
+    return view('quote');
+ });
+Route::controller(QuoteController::class)->group(function () {
+    Route::get('/quote', 'Quote')->name('quote');
+});
+
+//quotePDF
+Route::get('/quotePDF', function (){
+    return view('quotePDF');
+ });
+Route::controller(QuotePDFController::class)->group(function () {
+    Route::get('/quotePDF', 'QuotePDF')->name('quotePDF');
+});
+
+
 
 
  //Sending Mail
